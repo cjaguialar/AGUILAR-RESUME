@@ -1,0 +1,255 @@
+@import url('https://fonts.cdnfonts.com/css/tt-chocolates');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'TT Chocolates', sans-serif;
+                                                
+}
+
+.bg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    height: 1350px;
+    background-color: #f0efef;
+    background-image: url(../pictures/background1.jpg);
+    background-size: cover;
+}
+.name{
+    height: 300px;
+    display: flex;
+    gap: 50px;
+}
+
+.picture{
+    position: relative;
+    margin-left: 40px;
+    background-image: url(../pictures/shape.png);
+    background-size: cover;
+}
+.picture img{
+    margin-top: -50px;
+    height: 350px;
+    width: 350px;
+}
+.fname{
+    margin-top: 50px;
+    right: 50px;
+    margin-left: -20px;
+    font-size: 70px;
+}
+.lname{
+    color: #ffc83a;
+    margin-left: 170px;
+    font-size: 80px;
+}
+
+.yellow{
+    position: absolute;
+    background-color: #ffc83a;
+    margin-left: -45px;
+    top: 300px;
+    width: 30%;
+    height: 225px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.about{
+    position: relative;
+    background-color: #242323;
+    width: 70%;
+    top: 30px;
+    color:#ffc83a ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.about h1{
+    margin-left: 50px;
+}
+.yellow p{
+    margin: 50px 50px;
+}
+.container2{
+    margin-top: 60px;
+    background-color: #242323;
+    width: 90%;
+    height: 70%;
+    border-radius: 30px;
+    justify-self: center;
+}
+.blank{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.blank h1{
+    align-self: center;
+    padding: 1px 10px;
+    border-radius: 50px;
+    background-color: #ffc83a;
+    margin-bottom: 2px;
+}
+.contacts{
+    margin-right: 40px;
+    width: 40%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.icons{
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3px;
+}
+.icons i{
+    background-color: #ffc83a;
+    border-radius: 50%;
+    padding: 3px;
+}
+.icons a{
+    font: icon;
+    color: #ffc83a;
+    text-decoration: none;
+}
+.icons a:hover{
+    color: #cda235;
+}
+.contents{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content1{
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.content2{
+    width: 60%;
+    border-left: 3px solid white;
+    display: flex;
+    justify-content: center;
+}
+.sections{
+    border-left: 5px solid white;
+    width: 80%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.sections h1{
+    align-self: center;
+    background-color: #ffc83a;
+    padding: 0px 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+
+.sections h3{
+    background-color: transparent;
+    color: #ffc83a;
+    font-size: large;
+}
+.list, dd{
+    padding-left: 20px;
+    color: white;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.sections h4{
+    margin-left: 10px;
+    color: #ffc83a;
+}
+
+.im{
+    background-color: #ffc83a;
+    position: absolute;
+    padding: 5px 75px;
+    right: 20%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.commskills{
+    width: 60%;
+}
+.commskills h1{
+    justify-self: center;
+    background-color: #ffc83a;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.commskills .skills h3{
+    background-color: transparent;
+    color: #fff;
+    font-size: medium;
+}
+.skills .bar1, .bar2, .bar3, .bar4, .bar5{
+    width: 50%;
+    height: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5px;
+}
+.bar1 .bar{
+    width: 90%;
+    height: 100%;
+    background-color: #cda235;
+}
+
+.bar2 .bar{
+    width: 80%;
+    height: 100%;
+    background-color: #cda235;
+}
+.bar3 .bar{
+    width: 50%;
+    height: 100%;
+    background-color: #cda235;
+}
+.bar4 .bar{
+    width: 65%;
+    height: 100%;
+    background-color: #cda235;
+}
+.bar5 .bar{
+    width: 100%;
+    height: 100%;
+    background-color: #cda235;
+}
+
