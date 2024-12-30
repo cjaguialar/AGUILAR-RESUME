@@ -112,10 +112,10 @@
 }
 .blank h1{
     align-self: center;
-    padding: 1px 10px;
+    padding: 0px 10px;
     border-radius: 50px;
     background-color: #ffc83a;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .contacts{
     margin-right: 40px;
