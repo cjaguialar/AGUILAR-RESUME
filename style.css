@@ -1,6 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/tt-chocolates');
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -20,7 +19,7 @@
     width: 60%;
     height: 1350px;
     background-color: #f0efef;
-    background-image: url(../pictures/background1.jpg);
+    background-image: url(background1.jpg);
     background-size: cover;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 }
@@ -33,7 +32,7 @@
 .picture{
     position: relative;
     margin-left: 40px;
-    background-image: url(../pictures/shape.png);
+    background-image: url(shape.png);
     background-size: cover;
 }
 .picture img{
@@ -41,10 +40,14 @@
     height: 350px;
     width: 350px;
     margin-top: 5px;
-    transition: 0.5s linear;
+    transition: 1s ease-out;
 }
 .picture img:hover{
     margin-right: -10px;
+    height: 310px;
+    width: 310px;
+    right: -50px;
+
 }
 .fname{
     margin-top: 50px;
@@ -57,6 +60,13 @@
     margin-left: 170px;
     font-size: 80px;
 }
+.course{
+    padding-right: 20px;
+    text-align: end;
+    margin-top: 1rem;
+    font-size: large;
+}
+
 
 .yellow{
     position: absolute;
@@ -83,6 +93,7 @@
 .yellow p{
     margin: 40px 50px;
     font-size: medium;
+    font-weight: 400;
 }
 .container2{
     margin-top: 60px;
@@ -184,6 +195,11 @@
     color: #ffc83a;
     font-size: large;
 }
+.icon{
+    display: flex;
+    gap: 5px;
+}
+
 .list, dd{
     padding-left: 20px;
     color: white;
